@@ -10,12 +10,12 @@ This project focuses on diagnostic Exploratory Data Analysis (EDA) of global sup
 ## 🛠️ Tech Stack & Tools
 * **Language:** Python
 * **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
-* **Environment:** Google Colab
+* **Environment:** Google Colab, Tableau Public
 
 ## 🔍 Key Steps & Workflow
 1. **Data Cleaning & Preprocessing:** Handling missing values, standardizing columns, and validating data types.
 2. **Feature Engineering:** Creating calculated fields such as cost per demand, delay indicators, and risk groupings.
-3. **Exploratory Data Analysis (EDA):** 
+3. **Exploratory Data Analysis (EDA):**  
    * Analyzing correlation matrices to evaluate linear dependencies among operational variables.
    * Aggregating supplier performance metrics across different countries.
 4. **Diagnostic Insights:** Assessing distribution patterns of logistics bottlenecks and operational risks.
@@ -28,6 +28,22 @@ This project focuses on diagnostic Exploratory Data Analysis (EDA) of global sup
 ## 🚀 Strategic Business Recommendations
 * **Vendor Diversification:** Supply chain management should re-evaluate high-cost or high-risk supplier regions to negotiate better SLAs.
 * **Bottleneck Mitigation:** Focus operational monitoring on customs clearance times and lead-time variabilities to improve predictability.
-* **BI Dashboard Integration:** Transition these analytical findings into an interactive dashboard (Tableau/Looker Studio) for real-time executive monitoring.
+* **BI Dashboard Integration:** Transition these analytical findings into an interactive Tableau dashboard for real-time executive monitoring.
+
+## 📊 Tableau Interactive Dashboard
+The final diagnostic metrics have been compiled into an executive dashboard to monitor shipping costs and lead times by supplier country interactively.
+
+
+
+![Supply Chain Performance Overview](dashboard/supply_chain_overview.png)
 
 ## 📂 Repository Structure
+```text
+nama-proyek-supply-chain/
+│
+├── screenshoot             
+├── data/                    
+│   └── cleaned_supply_chain_data.csv # Cleaned dataset used for visualization
+├── notebook/                
+│   └── supply_chain_eda.ipynb      # Google Colab notebook for data preprocessing & EDA
+└── README.md                # Project documentation
