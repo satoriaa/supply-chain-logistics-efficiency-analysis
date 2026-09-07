@@ -35,7 +35,7 @@ The final diagnostic metrics have been compiled into an executive dashboard to m
 
 
 
-![Supply Chain Performance Overview](dashboard/supply_chain_overview.png)
+![Supply Chain Performance Overview](Screenshot_2026-09-08_002410.png)
 
 ## 📂 Repository Structure
 ```text
